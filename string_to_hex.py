@@ -111,7 +111,7 @@ def convert_string_to_hexadecimal(string: str) -> str:
         else:
             hexadecimal_string = "-1"
             break
-    print("")
+
     return hexadecimal_string
 
 
@@ -121,6 +121,7 @@ def main():
     string = input("Please enter a string to convert to hex: ")
 
     converted = convert_string_to_hexadecimal(string)
+    print("")
 
     if converted == "-1":
         print("Invalid Input.")
