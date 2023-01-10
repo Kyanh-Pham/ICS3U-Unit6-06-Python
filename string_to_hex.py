@@ -4,7 +4,7 @@
 # This program converts a string to hex
 
 
-def convert_string_to_hexadecimal(string):
+def convert_string_to_hexadecimal(string: str) -> str:
     # This function converts string to hexadecimal
 
     hexadecimal_string = ""
